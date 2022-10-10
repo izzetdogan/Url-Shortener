@@ -32,7 +32,8 @@ You can acces the API on port <a>http://localhost:8080/api/v1 </a>
 {
     "id": 1,
     "url": "https://github.com/izzetdogan",
-    "shortUrl": "dogan-izzet" //-- random String if it is null QNPJTRTWKU"
+    "shortUrl": "dogan-izzet" // it returns random String if it is null "QNPJTRTWKU"
 }
 ```
-
+### Get /goto/{shortUrl}
+This endpoint redirect the user to the valid http/https web site by using shortUrl
