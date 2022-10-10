@@ -15,3 +15,24 @@ Kotlin language is used on DTO and Model classes to not using Lombok or boilerpl
 <li>Spring-Validation </li>
 <li>Kotlin</li>
 </ul>
+
+## API-Endpoints
+You can acces the API on port <a>http://localhost:8080/api/v1 </a>
+
+### POST /
+```json
+{
+    "url": "https://github.com/izzetdogan",
+    "shortUrl": "dogan-izzet" // it can be null
+}
+```
+
+### Get /{shortUrl}
+```json
+{
+    "id": 1,
+    "url": "https://github.com/izzetdogan",
+    "shortUrl": "dogan-izzet" //-- random String if it is null QNPJTRTWKU"
+}
+```
+
