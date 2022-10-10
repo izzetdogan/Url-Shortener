@@ -1,7 +1,7 @@
 # Url-Shortener
 Spring-Boot(Java + Kotlin) based REST-API that takes a URL and returns a shortened URL
 
-##Dependendencies
+## Dependendencies
 <ul>
 <li>Spring Web </li>
 <li>Spring-Data-JPA </li>
